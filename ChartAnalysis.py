@@ -127,7 +127,6 @@ class ChartAnalysis:
         else:
             print("No valid ATR values found.")
 
-
         # ------ MACD CALCULATION ------
         print("Calculating MACD...")
         # MACD line: 12-day EMA - 26-day EMA
