@@ -1,2 +1,3 @@
-ChartAnalysis pulls daily price and volume data for US equities from the yFinance API and calculates various trailing technical indicators (Moving averages, Moving Average Convergence Divergence, Average True Range, Relative Strength Index). 
-It then graphically illustrates historical price information accompanied by the various technical indicators.
+TechnicalAnalysis pulls daily price and volume data for US equities from the yFinance API and calculates various trailing technical indicators (Moving averages, Moving Average Convergence Divergence, Average True Range, Relative Strength Index). It then graphically illustrates historical price information accompanied by the various technical indicators.
+
+FundamentalAnalysis fetches and analyzes company fundamentals straight from Yahoo Finance. It computes key financial metrics—including revenue trends, margins, profitability ratios, and valuation multiples—both over the past few years (trend analysis) and for the most recent quarter (spot analysis). The module also offers formatted displays, visual plots, and Excel exports to generate a report to provide insights on a company's financial health.
