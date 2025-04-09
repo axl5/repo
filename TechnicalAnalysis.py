@@ -9,7 +9,7 @@ from docx import Document
 #target_dir = r"<Insert Directory Here>"
 #os.chdir(target_dir)
 
-class ChartAnalysis:
+class TechnicalAnalysis:
     def __init__(self, ticker):
         self.ticker = ticker
         self.df = None
