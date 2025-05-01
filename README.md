@@ -1,3 +1,8 @@
+# Analytics Toolkit Showcase
+
+Welcome to my portfolio of end-to-end data engines—designed to turn raw numbers into clear, actionable stories. Dive in to see how I’ve built plug-and-play pipelines, flexible metric engines, and visual layers that adapt to any domain, whether it's market trends or operational insights. 
+
+
 ## TechnicalAnalysis
 
 This module grabs daily price and volume data for U.S. stocks, then runs a suite of standard indicators (moving averages, MACD, ATR, RSI) on rolling windows. The code is structured in the following way:
