@@ -13,3 +13,6 @@ This toolkit pulls financial statements, calculates key health metrics, and pack
 - **Automated KPI Assembly**: Streamline fetching and normalization of revenue, margin, profitability, and valuation data — aggregating granular data for holistic business assessments.  
 - **Trend vs. Spot Analysis Views**: Delivers multi-year growth trends alongside recent quarterly “spot” deep dives, enabling users to identify accelerating or decelerating signals at a glance.
 - **Auto-formatted Reporting**: Generates ready-to-share Excel exports and static plots with minimal configuration, plus customizable text summaries for “one-page” insights.
+
+
+**Why this matters:** both modules are designed as adaptable building blocks—whether you’re analyzing customer usage patterns or business metrics, users get a turn-key data pipeline, metric engine, and visualization layer that scale with their needs. 😉
