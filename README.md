@@ -1,3 +1,19 @@
-TechnicalAnalysis pulls daily price and volume data for US equities from the yFinance API and calculates various trailing technical indicators (Moving averages, Moving Average Convergence Divergence, Average True Range, Relative Strength Index). It then graphically illustrates historical price information accompanied by the various technical indicators.
+## TechnicalAnalysis
 
-FundamentalAnalysis fetches and analyzes company fundamentals from the yFinance API. It computes key financial metrics—including revenue trends, margins, profitability ratios, and valuation multiples—both over the past few years (trend analysis) and for the most recent quarter (spot analysis). The module also offers formatted displays, visual plots, and Excel exports to generate a report to provide insights on a company's financial health.
+This module grabs daily price and volume data for U.S. stocks, then runs a suite of standard indicators (moving averages, MACD, ATR, RSI) on rolling windows. The code is structured in the following way:
+
+- **Data Ingestion Pipeline**: Pull, normalize, and store daily US equity price & volume datawithout writing a single SQL query. 
+- **Signal Detection Thresholds**: Engineered trailing indicators to automatically flag trend shift — "alert triggers" for faster, data-driven decision-making. Easily swap in different formulas or add new metrics  
+- **Dashboard Visualizations**: Generates self-updating plots where price history and overlaid indicators stay in sync; exportable to PNG or embedded in Jupyter/HTML with no extra work.
+
+## FundamentalAnalysis
+
+This toolkit pulls financial statements, calculates key health metrics, and packages results into exportable Excel formats. Highlights include:
+
+- **Automated KPI Assembly**: Streamline fetching and normalization of revenue, margin, profitability, and valuation data — aggregating granular data for holistic business assessments.  
+- **Trend vs. Spot Analysis Views**: Delivers multi-year growth trends alongside recent quarterly “spot” deep dives, enabling users to identify accelerating or decelerating signals at a glance.
+- **Auto-formatted Reporting**: Generates ready-to-share Excel exports and static plots with minimal configuration, plus customizable text summaries for “one-page” insights.
+
+- **Unified data fetcher**: one function to grab income, balance sheet, and cash flow data for any public company—and keep it versioned by date.  
+- **Trend vs. snapshot views**: out-of-the-box scripts that compare multi-year growth patterns to the most recent quarter, so you can spot accelerating or decelerating signals at a glance.  
+- **Auto-formatted outputs**: ready-to-share Excel workbooks and static/interactive plots with minimal configuration, plus customizable text summaries you can drop right into a deck.
