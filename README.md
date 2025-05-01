@@ -13,7 +13,3 @@ This toolkit pulls financial statements, calculates key health metrics, and pack
 - **Automated KPI Assembly**: Streamline fetching and normalization of revenue, margin, profitability, and valuation data — aggregating granular data for holistic business assessments.  
 - **Trend vs. Spot Analysis Views**: Delivers multi-year growth trends alongside recent quarterly “spot” deep dives, enabling users to identify accelerating or decelerating signals at a glance.
 - **Auto-formatted Reporting**: Generates ready-to-share Excel exports and static plots with minimal configuration, plus customizable text summaries for “one-page” insights.
-
-- **Unified data fetcher**: one function to grab income, balance sheet, and cash flow data for any public company—and keep it versioned by date.  
-- **Trend vs. snapshot views**: out-of-the-box scripts that compare multi-year growth patterns to the most recent quarter, so you can spot accelerating or decelerating signals at a glance.  
-- **Auto-formatted outputs**: ready-to-share Excel workbooks and static/interactive plots with minimal configuration, plus customizable text summaries you can drop right into a deck.
